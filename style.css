@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    color: #cfd8ff;
+    margin-top: 120px;
+    font-family: Arial, sans-serif;
+    background-image: url('Assets/fondo_estelar.png');
+    background-size: cover; /* Para ajustar la imagen al tamaño del cuerpo */
+  }
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    background-color: lightsteelblue;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #9e92da;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #201a47;
+    color: #cfd8ff;
+}
+  
+
+#mensaje {
+    color: #aaaaaa;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    margin-top: 20px;
+}

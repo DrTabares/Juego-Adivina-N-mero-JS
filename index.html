@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego adivina el número</title>
+</head>
+<body>
+
+    <h1>Adivina el número</h1>
+    <h2>Escribe un número entre 1 y 100 y atrévete a ganarle una partida a la máquina</h2>
+    <input type="number" id="numeroEntrada">
+    <button onclick="check()">Click aquí</button>
+    <p id="mensaje">¡Empieza el juego!</p>
+    <h3>Número de intentos: <p id="intento">0</p></h3>
+    <h3>Puntaje: <p id="puntaje">0</p></h3>
+    <button onclick="cargar()">Vuelve a jugar</button>
+
+    <script src="script.js"></script>
+</body>
+
+<footer>
+    <p>By Didier T. &copy; 2024</p>
+</footer>
+</html>
